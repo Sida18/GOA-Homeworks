@@ -1,0 +1,1197 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+
+
+
+input{
+width: 500px;
+height: 50px;
+border-radius: 8px;
+position: relative;
+left: 500px;
+}
+
+.goaY{
+display: inline;
+font-size: 16.8px;
+font-family: Roboto;
+text-decoration: none;
+position: relative;
+bottom: 50px;
+color: white;
+
+}
+
+
+.goaY:hover{
+text-decoration: underline;
+color: rgb(173, 211, 230);
+}
+
+
+.goaF{
+display: inline;
+font-family: Roboto;
+font-size: 16.8px;
+text-decoration: none;
+position: relative;
+left: 980px;
+bottom: 46px;
+color: white
+}
+
+
+.goaF:hover{
+text-decoration: underline;
+color: rgb(173, 211, 230);
+}
+
+
+
+.goaD{
+display: inline;
+font-family: Roboto;
+font-size: 16.8px;
+text-decoration: none;
+position: relative;
+bottom: 50px;
+right: 40px;
+color: white;
+}
+
+.goaD:hover{
+text-decoration: underline;
+color: rgb(173, 211, 230);
+}
+
+
+.goaimage{
+float: right;
+border-radius: 150px;
+border: 2px solid green;
+position: relative;
+right: 250px;
+bottom: 200px;
+left: 0px;
+top: 200px;
+animation-name: goa;
+animation-duration: 9s;
+animation-iteration-count:infinite ;
+}
+
+@keyframes goa{
+0%{
+position: relative;
+bottom: 0px;
+top: 0px;
+}
+
+
+25%{
+position: relative;
+top: 200px;
+}
+
+50%{
+position: relative;
+top: -30px;
+}
+
+75%{
+position: relative;
+top: 200px;
+
+}
+
+100%{
+position: relative;
+top: 200px;
+top: -0px;
+}
+
+
+}
+
+.goa{
+position: relative;
+right: 100px;
+}
+
+
+.sandro{
+font-family: Roboto;
+font-size: 40px;
+position: relative;
+top: 250px;
+bottom: 200px;
+}
+
+.p1{
+display: inline;
+color: burlywood;
+animation-name: sandro;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes sandro{
+
+0%{
+position: relative;
+left: 0px;
+right: 0px;
+}
+
+25%{
+position: relative;
+left: 70px;
+
+}
+
+50%{
+position: relative;
+left: -0px;
+  
+}
+
+
+}
+
+
+.youtube{
+position: relative;
+top: 380px;
+width: 164px;
+height: 50px;
+background-color: black;
+border-radius: 7px;
+transition-property: width;
+transition-duration: 3s;
+}
+
+
+.youtube:hover{
+width: 178px;
+}
+
+.Y{
+display: inline;
+position: relative;
+left: 100px;
+top: 16px;
+text-decoration: none;
+color: black;
+transition-property: color;
+transition-duration: 2s;
+font-family: Roboto;
+}
+
+
+.Y:hover{
+color: black;
+text-decoration: underline;
+}
+
+
+
+.yimage{
+position: relative;
+top: 5px;
+left: 3px;
+border-radius: 200px;
+}
+
+
+.Y1{
+position: relative;
+bottom: 45px;
+}
+
+
+.facebook{
+width: 164px;
+height: 50px;
+border-radius: 7px;
+background-color: black;
+position: relative;
+left: 190px;
+top: 330px;
+bottom: 62px;
+transition-property: width;
+transition-duration: 3s;
+}
+
+.facebook:hover{
+width: 178px; 
+
+
+}
+
+.fimage{
+position: relative;
+top: 5px;
+left: 3px;
+border-radius: 200px;
+}
+
+
+
+
+
+
+.F{
+display: inline;
+position: relative;
+bottom: 10px;
+left: 20px;
+font-family: Roboto;
+text-decoration: none;
+color: black;
+transition-property: color;
+transition-duration: 2s;
+}
+
+.F:hover{
+text-decoration: underline;
+color: white;
+}
+
+.k{
+position: relative;
+transform: translateY(-130px);
+top: 30px;
+}
+
+.sido{
+
+position: relative;
+bottom: 200px;
+top: 0px;
+}
+
+.discord{
+width: 164px;
+height: 50px;
+border-radius: 7px;
+background-color: black;
+position: relative;
+left: 380px;
+top: 181px;
+transition-property: width;
+transition-duration: 2s;
+}
+
+
+.discord:hover{
+
+width: 178px;
+
+
+}
+
+
+.dimage{
+position: relative;
+top: 5px;
+left: 3px;
+border-radius: 200px;
+}
+
+.d{
+position: relative;
+bottom: 5px;
+}
+
+.D{
+font-family: Roboto;
+position: relative;
+left: 85px;
+bottom: 39px;
+color: black;
+transition-property: color;
+transition-duration: 2s;
+}
+
+
+.D:hover{
+text-decoration: underline;
+color: white;
+}
+
+.signup{
+position: relative;
+top: 300px;
+left: 590px;
+transform: translateY(-50px);
+font-family: Roboto;
+color: rgb(0, 221, 255);
+font-size: 35px;
+animation-name: sign;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+text-align: center;
+}
+
+
+.h{
+position: relative;
+top: 210px;
+
+}
+
+
+@keyframes sign{
+
+  0%{
+  position: relative;
+  right: 0px;
+  left: 0px;
+  }
+  
+  
+  25%{
+  position: relative;
+  left: 250px;
+  }
+  
+  50%{
+  position: relative;
+  left: -0px;
+  }
+  
+  75%{
+  position: relative;
+  left: -250px;
+  }
+  
+  100%{
+  position: relative;
+  left: 0px;
+  }
+  
+}
+
+.search{
+position: relative;
+top: 250px;
+border-radius: none;
+}
+
+
+
+.sign1{
+transition-property: transform;
+transition-duration: 2s;
+border-radius: none;
+}
+
+.sign1:hover{
+transform: scale(1.1);
+}
+
+.sign2{
+transition-property:transform ;
+transition-duration: 2s;
+}
+
+.sign2:hover{
+transform: scale(1.1);
+}
+
+.sign3{
+transition-property:transform ;
+transition-duration: 2s;
+}
+
+.sign3:hover{
+transform: scale(1.1);
+}
+
+.sign4{
+transition-property: transform;
+transition-duration: 2s;
+}
+
+.sign4:hover{
+transform: scale(1.1);
+}
+
+.group{
+position: relative;
+top: 400px;
+left: 480px;
+right: 1000px;
+font-family: Roboto;
+
+}
+
+.g{
+display: inline;
+position: relative;
+left: 170px;
+bottom: 20px;
+font-family: Roboto;
+}
+
+.gr{
+position: relative;
+right: 80px;
+top: 0px;
+animation-name: group;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+color: rgb(0, 221, 255);
+}
+
+@keyframes group{
+  0%{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    }
+    
+    
+    25%{
+    position: relative;
+    left: 250px;
+    }
+    
+    50%{
+    position: relative;
+    left: -0px;
+    }
+    
+    75%{
+    position: relative;
+    left: -250px;
+    }
+    
+    100%{
+    position: relative;
+    left: 0px;
+    }
+}
+
+
+.r{
+position: relative;
+top: 290px;
+}
+
+.sign5{
+width: 70px;
+height: 30px;
+top: 500px;
+transform: translateX(-450px 500px);
+}
+
+.hh3{
+display: inline;
+position: relative;
+top: 500px;
+left: 630px;
+font-family: Roboto;
+}
+
+
+
+.l{
+display: inline;
+position: relative;
+left: 460px;
+}
+
+
+
+button{
+background-color: gray;
+border-radius: 15px;
+width: 120px;
+}
+
+.a1{
+width: 34px;
+height: 50px;
+transform: translateX(-479px);
+position: relative;
+top: 20px;
+}
+
+.a2{
+width: 34px;
+height: 50px;
+transform: translateX(-479px);
+position: relative;
+top: 20px;
+}
+
+.a3{
+  width: 34px;
+  height: 50px;
+  transform: translateX(-479px);
+position: relative;
+top: 20px;
+}
+
+.a4{
+  width: 34px;
+  height: 50px;
+  transform: translateX(-479px);
+  position: relative;
+  top: 20px;
+}
+
+.a5{
+  width: 34px;
+  height: 50px;
+  transform: translateX(-479px);
+  position: relative;
+  top: 20px;
+}
+
+.a6{
+  width: 34px;
+  height: 50px;
+  transform: translateX(-479px);
+  position: relative;
+  top: 20px;
+}
+
+.fo{
+color: white;
+position: relative;
+top: 450px;
+left: 680px;
+
+
+}
+
+.as{
+position: relative;
+top: 400px;
+font-family: 40px;
+}
+
+label{
+animation-name: lab;
+animation-duration: 3.5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes lab{
+0%{
+position: relative;
+right: 0px;
+}
+
+25%{
+position: relative;
+right: 35px;
+}
+
+50%{
+position: relative;
+right: -0px;
+}
+
+
+
+}
+
+.h12{
+display: inline;
+position: relative;
+top: 580px;
+font-family: Roboto;
+color:rgb(0, 221, 255) ;
+display: flex;
+justify-content: center;
+transform: translateY(-50px);
+animation-name: hhh;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes hhh{
+  0%{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    }
+    
+    
+    25%{
+    position: relative;
+    left: 250px;
+    }
+    
+    50%{
+    position: relative;
+    left: -0px;
+    }
+    
+    75%{
+    position: relative;
+    left: -250px;
+    }
+    
+    100%{
+    position: relative;
+    left: 0px;
+    }
+}
+
+
+
+.hhr{
+position: relative;
+top: 490px;
+}
+
+
+.a7{
+  width: 34px;
+  height: 50px;
+  transform: translateX(-479px);
+  position: relative;
+  top: 20px
+}
+
+.al{
+position: relative;
+top: 580px;
+left: 680px;
+}
+
+.ar{
+position: relative;
+top: 600px;
+}
+
+
+
+
+.h122{
+display: flex;
+justify-content: center;
+position: relative;
+top: 625px;
+font-family: Roboto;
+color:rgb(0, 221, 255);
+animation-name: h123;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes h123{
+  0%{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    }
+    
+    
+    25%{
+    position: relative;
+    left: 250px;
+    }
+    
+    50%{
+    position: relative;
+    left: -0px;
+    }
+    
+    75%{
+    position: relative;
+    left: -250px;
+    }
+    
+    100%{
+    position: relative;
+    left: 0px;
+    }
+}
+
+
+
+.div1{
+  width: 365px;
+  height: 210px;
+  border-top: 3px solid red;
+ position: relative;
+ top: 700px;
+ left: 590px;
+ background-color: rgb(28, 27, 27);
+ 
+}
+
+.pp1{
+display: inline;
+position: relative;
+left: 50px;
+top: 65px;
+color: gray;
+text-decoration: line-through;
+}
+
+.pp2{
+display: inline;
+position: relative;
+top: 74px;
+left: 25px;
+font-size: 45px;
+color: green;
+}
+
+.pp2:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+.btn{
+position: relative;
+left: 90px;
+top: 65px;
+font-size: 25px;
+border-radius: none;
+background-color: blue;
+}
+
+.btn:hover{
+cursor: pointer;
+}
+
+
+
+
+
+.ar{
+position: relative;
+top: 200px;
+font-family: Roboto;
+color:rgb(0, 221, 255) ;
+animation-name: ssandro;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ssandro{
+  0%{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    }
+    
+    
+    25%{
+    position: relative;
+    left: 250px;
+    }
+    
+    50%{
+    position: relative;
+    left: -0px;
+    }
+    
+    75%{
+    position: relative;
+    left: -250px;
+    }
+    
+    100%{
+    position: relative;
+    left: 0px;
+    }
+}
+
+
+.images{
+position: relative;
+top: 500px;
+left: 100px;
+transform: translateY(-625px);
+}
+
+.pp3{
+display: inline-block;
+position: relative;
+right: 540px;
+top: 400px;
+transform: translateX(200px);
+font-family: Roboto;
+line-height: 30px;
+}
+
+
+.read{
+position: relative;
+width: 130px;
+height: 60px;
+bottom: 100px;
+right: 290px;
+transition-property: transform background-color;
+transition-duration: 2s;
+
+}
+
+.read:hover{
+transform: scale(1.1);
+cursor: pointer;
+background-color: blue;
+}
+
+.div2{
+  width: 365px;
+  height: 210px;
+  border-top: 3px solid green;
+  position: relative;
+  top: 2180px;
+  left: 590px;
+  background-color: black;
+  animation-name: div1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes div1{
+ 
+
+0%{
+position: relative;
+top: -0px;
+top: 0px;
+}
+
+25%{
+position: relative;
+top: 30px;
+}
+
+
+50%{
+  position: relative;
+  top: -30px;
+}
+
+75%{
+position: relative;
+top: 30px;
+}
+
+100%{
+position: relative;
+top: 30px;
+top: -0px;
+}
+
+  }
+  
+
+  .div22{
+  position: relative;
+  top: 2180px;
+ transform: translateY(-130px);
+  }
+  
+
+  
+.div3{
+  width: 365px;
+  height: 210px;
+  border-top: 3px solid green;
+ position: relative;
+ left: 210px;
+ background-color: black;
+animation-name: div2;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes div2{
+ 0%{
+ position: relative;
+ left: 0px;
+ right: 0px;
+ }
+
+
+25%{
+left: -40px;
+}
+
+50%{
+position: relative;
+left: 0px;
+}
+
+75%{
+position: relative;
+left: -40px;
+}
+
+100%{
+position: relative;
+left: 0px;
+}
+
+}
+
+
+
+.div33{
+position: relative;
+left: 210px;
+}
+
+
+  @keyframes hhh{
+    0%{
+      position: relative;
+      right: 0px;
+      left: 0px;
+      }
+      
+      
+      25%{
+      position: relative;
+      left: 250px;
+      }
+      
+      50%{
+      position: relative;
+      left: -0px;
+      }
+      
+      75%{
+      position: relative;
+      left: -250px;
+      }
+      
+      100%{
+      position: relative;
+      left: 0px;
+      }
+  }
+ .div4{ 
+  width: 365px;
+  height: 210px;
+  border-top: 3px solid green;
+ position: relative;
+ left: 385px;
+ background-color: black;
+ animation-name: div3;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ }
+
+
+
+@keyframes div3{
+  0%{
+  position: relative;
+  bottom: 0px;
+  top: 0px;
+  }
+  
+  
+  25%{
+  position: relative;
+  top: 50px;
+  }
+  
+  50%{
+  position: relative;
+  top: -50px;
+  }
+  
+  75%{
+  position: relative;
+  top: 50px;
+  
+  }
+  
+  100%{
+  position: relative;
+  top: 50px;
+  top: -0px;
+  }
+  
+
+}
+
+.div5{
+  width: 365px;
+  height: 210px;
+  border-top: 3px solid green;
+  animation-name: div4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+ position: relative;
+ background-color: black;
+ left: 775px;
+ bottom: 425px;
+
+}
+
+@keyframes div4{
+0%{
+position: relative;
+left: 0px;
+left: -0px;
+}
+
+25%{
+position: relative;
+left: -40px;
+}
+
+
+50%{
+position: relative;
+left: 0px;
+}
+75%{
+  position: relative;
+  left: -40px;
+  }
+  
+  100%{
+  position: relative;
+  left: -0px;
+  
+  }
+
+
+
+}
+
+.div55{
+position: relative;
+left: 830px;
+}
+
+.team{
+position: relative;
+left: 15px;
+font-family: Roboto;
+}
+.team1{
+font-family: Roboto;
+}
+
+.program{
+position: relative;
+left: 15px;
+font-family: Roboto;
+}
+
+.program1{
+font-family: Roboto;
+}
+.githubdiscord{
+position: relative;
+left: 15px;
+font-family: Roboto;
+}
+
+.githubdiscord1{
+font-family: Roboto;
+}
+
+.whatyouneedtobeingoa{
+position: relative;
+left: 15px;
+font-family: Roboto;
+
+}
+
+
+.whatyouneedtobeingoa1{
+font-family: Roboto;
+}
+
+.cameras{
+display: flex;
+justify-content: center;
+position: relative;
+top: 2000px;
+font-family: Roboto;
+color:rgb(0, 221, 255) ;
+animation-name: camera;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes camera{
+  0%{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    }
+    
+    
+    25%{
+    position: relative;
+    left: 250px;
+    }
+    
+    50%{
+    position: relative;
+    left: -0px;
+    }
+    
+    75%{
+    position: relative;
+    left: -250px;
+    }
+    
+    100%{
+    position: relative;
+    left: 0px;
+    }
+
+}
+
+.second{
+width: 350px;
+height: 470px;
+border: 2px solid red;
+position: relative;
+top: 2100px;
+left: 200px;
+}
+
+
+
+select{
+width: 500px;
+height: 50px;
+border-radius: 8px;
+position: relative;
+top: 2170px;
+left: 540px;
+cursor: pointer;
+}
+
+.read2{
+position: relative;
+top: 2300px;
+left: 550px;
+width: 500px;
+height: 155px;
+cursor: pointer;
+background: green;
+transition-property: transform;
+transition-duration: 2.5s;
+}
+
+.page2{
+font-size: 45px;
+color: red;
+}
+
+.read2:hover{
+transform: scale(1.1);
+}
