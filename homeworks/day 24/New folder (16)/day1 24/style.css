@@ -1,0 +1,70 @@
+/*i m sandro and i m doing my homework*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&display=swap');
+
+  
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins&display=swap');
+
+.div1   {
+color: rgb(17, 134, 125);
+font-size: 30px;
+font-weight: 400;
+text-transform: capitalize;
+font-family: Roboto;
+}
+
+
+
+.div2 {
+
+color: rgb(0, 162, 255);
+font-size: 30px;
+font-weight: 400;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Poppins;
+}
+
+
+
+.div3     {
+
+color: rgb(34, 93, 128);
+font-size: 30px;
+font-weight: 400;
+text-decoration: none;
+text-transform: capitalize;
+font-style: italic;
+}
+
+
+
+
+.div4 {
+
+
+
+font-size: 30px;
+font-weight: 400;   
+text-decoration: none;
+text-transform: capitalize;
+color: rgba(31, 190, 182, 0.658);
+font-style: italic;
+}
+
+
+.ol1 {
+
+
+list-style: georgian;
+list-style-image:url("https://www.google.com/url?sai&urlhttps%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsport&psigAOvVaw0bUacXoyjixkuDjFFI5WfC&ust1702808570344000&sourceimages&cdvfe&ved0CBIQjRxqFwoTCKD7nrLek4MDFQAAAAAdAAAAABAE") ;
+
+
+
+
+}
+
+
