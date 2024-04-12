@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+
+body{
+    font-family: Roboto;
+    background-image: url(bro.avif);
+    height: 800px;
+}
+
+
+div{
+width: 200px;
+height: 200px;
+border: 2px solid grey;
+border-radius: 150px;
+background-image: url(bro.avif);
+position: relative;
+left: 690px;
+top: 250px;
+transition-property: transform;
+transition-duration: 3s;
+}
+
+.goa{
+    
+    position: relative;
+    left: 50px;
+    top: 85px;
+    transform: translateY(-25px);
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+div:hover{
+    transform: scale(1.1);
+}

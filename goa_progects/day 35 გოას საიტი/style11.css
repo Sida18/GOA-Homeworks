@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+
+body{
+    font-family: Roboto;
+    font-size: 30px;
+    background-image: url(bro.avif);
+    height: 800px;
+}
+
+
+.p2{
+    opacity: 0;
+    text-align: center;
+    position: relative;
+    
+    animation-name: p2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+
+.p1{
+    opacity: 0;
+    text-align: center;
+    position: relative;
+    
+    animation-name: p1;
+    animation-duration: 3s;
+
+
+}
+
+
+
+@keyframes p1{
+    0%{
+    
+        opacity: 0;
+        }
+        
+       5%{
+        opacity: 0;
+       }
+    
+        100%{
+            opacity: 1;
+        }
+}
+
+
+@keyframes p2{
+    0%{
+    
+        opacity: 0;
+        }
+        
+       5%{
+        opacity: 0;
+       }
+    
+        100%{
+            opacity: 1;
+        }
+}
+
+
+.item{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bro.avif);
+     transition-property: transform background-image;
+    transition-duration: 3s;
+}
+
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(2.200px);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+
+.item:hover{
+    transform: scale(1.1);
+    background-image: url(me.jpg);
+}

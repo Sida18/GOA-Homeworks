@@ -1,0 +1,32 @@
+<h1 class="log"><p class="lo">Lo</p>gin</h1>
+
+
+
+<form class="s">
+    <div class="div1">
+        
+<label class="l" for="i">Name:</label>
+<input  type="text" id="i" placeholder="enter your name">
+
+<br>
+<br>
+<br>
+<div class="div2">
+<label class="la" for="z">Last name:</label>
+<input type="text" id="z" placeholder="enter your last name">
+</div>
+<br>
+<br>
+<br>
+<div class="div3">
+<label class="lab" for="s">Enter you password:</label>
+<input type="password" id="s" placeholder="enter your pass">
+</div>
+</div>
+
+</form> 
+
+<h1 class="loin"><p class="ool">lo</p>gin</h1>
+
+
+<button class="read">login with google</button>

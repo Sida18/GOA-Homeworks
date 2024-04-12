@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+
+body{
+    font-family: Roboto;
+    background-image: url(bro.avif);
+    height: 600px;
+}
+
+.div1{
+    font-size: 40px;
+    color: green;
+}
+
+
+
+
+.p1{
+    
+    position: relative;
+    left: 600px;
+   animation-name: p1;
+   animation-duration: 3s;
+   position: relative;
+   top: 250px;
+   opacity: 0;
+}
+
+
+
+
+
+.p2{
+    display: inline;
+   float: right;
+   position: relative;
+   top: 125px;
+   right: 600px;
+   animation-name: p2;
+   animation-duration: 3s;
+   animation-delay: 3s;
+   opacity: 0;
+}
+
+.p3{
+
+    
+    display: inline;
+    position: relative;
+    top: 170px;  
+    left: 600px;
+    animation-name: p3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    opacity: 0;
+}
+
+
+
+img{
+    position: relative;
+    left: 560px;
+    opacity: 0;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-delay: 10s;
+}
+
+
+
+
+@keyframes p1{
+
+    0%{
+    
+    opacity: 0;
+    }
+    
+   5%{
+    opacity: 0;
+   }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
+@keyframes p2{
+    0%{
+    
+        opacity: 0;
+        }
+        
+       5%{
+        opacity: 0;
+       }
+    
+        100%{
+            opacity: 1;
+        }  
+}
+
+
+@keyframes p3{
+  
+    
+   0%{
+    
+        opacity: 0;
+        }
+        
+       5%{
+        opacity: 0;
+       }
+    
+        100%{
+            opacity: 1;
+        }
+    
+}
+
+@keyframes img{
+    0%{
+    
+        opacity: 0;
+        }
+        
+       5%{
+        opacity: 0;
+       }
+    
+        100%{
+            opacity: 1;
+        }
+}  

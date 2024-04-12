@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+body{
+    font-family: Roboto;
+     
+}
+
+
+
+.s{
+    display: inline;
+    color: darkcyan;
+    text-decoration: underline;
+   
+}
+
+
+.si{
+text-align: center;
+
+
+}
+
+
+
+input{
+    
+    width: 600px;
+    height: 60px;
+    position: relative;
+    top: 100px;
+    border-bottom: 1px solid rgb(0, 213, 255);
+
+}
+
+input:hover{
+    border: 1px solid rgb(0, 213, 255) ;
+}
+
+form{
+    text-align: center;
+}
+
+
+
+input::placeholder{
+    color: rgb(0, 213, 255);
+
+}
+
+
+
+.submit{
+    animation-name: subm;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 135px;
+    left: 720px;
+    cursor: pointer;
+
+}
+
+
+@keyframes subm{
+    0%{
+        color: brown;
+       }
+   
+       25%{
+      color: red;
+     
+       }
+   
+       50%{
+       color: green;
+       }
+   
+       75%{
+       color: blue;
+       }
+   
+       100%{
+       color: black;
+       }
+}
+
+
+.sub{
+    display: inline;
+    animation-name: submi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+
+
+@keyframes submi{
+    0%{
+        color: black;
+       }
+   
+       25%{
+      color: green;
+     
+       }
+   
+       50%{
+       color: black;
+       }
+   
+       75%{
+       color: blue;
+       }
+   
+       100%{
+       color: yellow;
+       }
+}
+
+
+.go{
+    width: 350px;
+    height: 30px;
+    animation-name: g;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+    position: relative;
+    top: 190px;
+    left: 600px;
+    transform: translateY(-55px);
+    cursor: pointer;
+}
+
+@keyframes g{
+    0%{
+        background-color: black;
+       }
+   
+       25%{
+      background-color: green;
+     
+       }
+   
+       50%{
+       background-color: black;
+       }
+   
+       75%{
+       background-color: blue;
+       }
+   
+       100%{
+       background-color: yellow;
+       }   
+}
+
+
+

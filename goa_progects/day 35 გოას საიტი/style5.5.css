@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+body{
+    font-family: Roboto;
+     
+}
+
+
+
+
+input{
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+.log{
+    text-align: center;
+}
+
+
+
+.lo{
+    display: inline;
+    color: purple;
+    text-decoration: underline;
+}
+
+
+input::placeholder{
+    position: relative;
+    
+}
+
+label{
+    position: relative;
+    bottom: 30px;
+    left: 220px;
+}
+
+
+.loin{
+    
+    animation-name: login;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    position: relative;
+    left: 720px;
+    top: 120px;
+}
+
+
+@keyframes login{
+    0%{
+        color: brown;
+       }
+   
+       25%{
+      color: red;
+     
+       }
+   
+       50%{
+       color: green;
+       }
+   
+       75%{
+       color: blue;
+       }
+   
+       100%{
+       color: black;
+       }
+}
+
+.ool{
+    
+    display: inline;
+    animation-name: oo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes oo{
+    0%{
+        color: black;
+       }
+   
+       25%{
+      color: green;
+     
+       }
+   
+       50%{
+       color: black;
+       }
+   
+       75%{
+       color: blue;
+       }
+   
+       100%{
+       color: yellow;
+       }
+}
+
+
+.read{
+    width: 350px;
+    height: 30px;
+animation-name: o;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+background-color: aqua;
+cursor: pointer;
+position: relative;
+left: 600px;
+top: 130px;
+}
+
+
+@keyframes o{
+    0%{
+        background-color: black;
+       }
+   
+       25%{
+      background-color: green;
+     
+       }
+   
+       50%{
+       background-color: black;
+       }
+   
+       75%{
+       background-color: blue;
+       }
+   
+       100%{
+       background-color: yellow;
+       }   
+}
+
+.div1{
+    
+    position: relative;
+    top: 100px;
+  left: 620px;
+  
+   
+}
+
+
+.div2{
+    position: relative;
+    right: 15px;
+    left: 0px;
+    
+}
+
+
+.div3{
+    position: relative;
+    right: 50px;
+    left: 0;
+    
+}
+
+
+
+
+.l{
+display: flex;
+justify-content: center;
+position: relative;
+left: -630px;
+top: 0px;
+transform: translateY(-20px);
+}
+
+
+.la{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -630px;
+    top: 0px;
+    transform: translateY(-20px);
+}
+
+.lab{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -630px;
+    top: 0px;
+    transform: translateY(-20px); 
+}
+
