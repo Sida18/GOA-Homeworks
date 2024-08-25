@@ -1,0 +1,84 @@
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: black;
+}
+
+.movie{
+ color: white;
+ position: relative;
+ left: 300px;
+}
+
+#search{
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0px solid;
+    background-color: rgba(128, 128, 128, 0.402);
+    outline: 0px solid black;
+    color: white;
+   
+}
+
+#search::placeholder{
+    color: white;
+}
+
+
+.div1{
+    position: relative;
+    left: 550px;
+    bottom: 67px;
+}
+
+.div2{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 15px;
+    position: relative;
+    left: 290px;
+    bottom: 73px;
+    
+    
+}
+
+
+.search1{
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#runner{
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}
+
+.p1{
+    display: none;
+}
+
+.div4{
+    width: 250px;
+    height: 60px;
+    background-color: red; 
+    border-radius: 50px;
+    position: relative;
+    bottom: 550px;
+    left: 250px;
+    cursor: pointer;
+}
+
+.watch{
+    color: white;
+    position: relative;
+    top: 19px;
+    left: 10px;
+   
+}
